@@ -1,0 +1,201 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    overflow: hidden
+    background: url(../images/bg-desktop.svg)
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    background-color: hsl(257, 40%, 49%)
+    padding: 2em
+
+main
+    display: flex
+
+.logo img
+    width: 10em
+
+.left-side 
+    margin: 3em 0
+    img
+        width: 40em
+
+.right-side 
+    margin: 3em 3em
+    h1
+        font-size: 2.4em
+        color: #fff
+        width: 90%
+        font-family: Poppins
+        font-weight: bold
+    
+    p
+        font-size: 1.03em
+        margin-top: 1em
+        color: #ffffffda
+        font-family: Poppins
+
+.button
+    margin-top: 2em
+    button
+        cursor: pointer
+        width: 11rem
+        height: 3rem
+        border-radius: 20px
+        border: none
+        background: #fff
+        color: hsl(257, 40%, 49%)
+        font-family: Poppins
+        font-size: 1em
+        box-shadow: 0px 0px 10px #000
+
+        &:hover
+            background: hsl(300, 69%, 71%)
+            color: #fff
+
+.social-media 
+    position: relative
+    top: -2em
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    gap: 10px
+    margin-right: 4em
+    i
+        cursor: pointer
+        display: flex
+        align-items: center
+        justify-content: center
+        border: 1px solid  #fff
+        color: #fff
+        border-radius: 50%
+        width: 1.7em
+        height: 1.7em
+
+@media (max-width: 440px)
+    main
+        flex-direction: column
+
+    .left-side 
+        margin: 3em auto
+        img
+            width: 18em
+
+    .right-side 
+        margin: 3em 0
+        h1
+            font-size: 1.6em
+            width: 100%
+            text-align: center
+        
+        p
+            font-size: 1.03em
+            margin-top: 1em
+            color: #ffffffda
+            text-align: center
+        
+    .button
+        margin-top: 2em
+        display: flex
+        align-items: center
+        justify-content: center
+        button
+            cursor: pointer
+            width: 14rem
+            height: 3rem
+            border-radius: 20px
+            border: none
+            background: #fff
+            color: hsl(257, 40%, 49%)
+            font-family: Poppins
+            font-size: 1em
+            box-shadow: 0px 0px 4px #000
+
+    body
+        overflow: auto
+        height: 100vh
+        background: url(../images/bg-mobile.svg)
+        background-size: cover
+        background-position: top
+        background-repeat: no-repeat
+        background-color: hsl(257, 40%, 49%)
+        padding: 1em
+
+    .social-media
+        justify-content: center
+        margin: 2em 0
+        i
+            margin-right: 9px
+            border: 2px solid  #fff
+
+@media (min-width: 1920px)
+    .left-side 
+        margin: 3em auto
+        img
+            width: 62em
+    .right-side 
+        margin: 3em 0
+        h1
+            font-size: 4em
+            width: 100%
+            margin-left: .8em        
+        p
+            font-size: 1.7em
+            margin-top: 1em
+            margin-left: 2em        
+            color: #ffffffda
+    .button
+        margin-top: 2em
+        display: flex
+        align-items: center
+        justify-content: center
+        button
+            cursor: pointer
+            width: 25rem
+            height: 4rem
+            border-radius: 20px
+            border: none
+            background: #fff
+            color: hsl(257, 40%, 49%)
+            font-family: Poppins
+            font-size: 1em
+            outline: none
+            box-shadow: 0px 0px 4px #000
+    .social-media
+        justify-content: center
+        margin-top: 3em
+        i
+            margin-right: 9px
+            border: 2px solid  #fff
+
+@media (width: 768px)
+    body
+        overflow: auto
+    main
+        flex-direction: column
+    .button
+        margin-top: 2em
+        display: flex
+        align-items: center
+        justify-content: center
+        button
+            cursor: pointer
+            width: 20rem
+            height: 3rem
+            border-radius: 20px
+            border: none
+            background: #fff
+            color: hsl(257, 40%, 49%)
+            font-family: Poppins
+            font-size: 1em
+            box-shadow: 0px 0px 4px #000
+
+    .social-media
+        justify-content: center
+        margin: 2em 0
+        i
+            margin-right: 9px
+            border: 2px solid  #fff
