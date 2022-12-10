@@ -8,10 +8,10 @@ body {
   overflow: hidden;
   background: url(../images/bg-desktop.svg);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   background-color: hsl(257deg, 40%, 49%);
   padding: 2em;
+  height: 100vh;
 }
 
 main {
